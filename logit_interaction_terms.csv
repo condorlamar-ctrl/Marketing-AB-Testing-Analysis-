@@ -1,0 +1,8 @@
+model_name,term,term_type,coefficient_log_odds,odds_ratio,ci_lower,ci_upper,p_value
+exposure_band_interaction,"C(test_group, Treatment(reference=""psa""))[T.ad]",baseline_ad_vs_psa_at_reference_exposure,0.22121212623720982,1.2475880486552018,0.3942618747314876,3.947822599401307,0.7066369393206682
+exposure_band_interaction,"C(test_group, Treatment(reference=""psa""))[T.ad]:C(total_ads_bin)[T.2–5]",interaction,-0.3605221957476911,0.6973120975678565,0.201497876135995,2.4131478243785938,0.5692342139604818
+exposure_band_interaction,"C(test_group, Treatment(reference=""psa""))[T.ad]:C(total_ads_bin)[T.6–10]",interaction,-0.5599672201441366,0.5712277883064866,0.16748811748808734,1.9482049892687374,0.37102160050967414
+exposure_band_interaction,"C(test_group, Treatment(reference=""psa""))[T.ad]:C(total_ads_bin)[T.11–20]",interaction,-0.19700759947338886,0.8211843927200055,0.24685064095479417,2.731788761976182,0.7480229648087613
+exposure_band_interaction,"C(test_group, Treatment(reference=""psa""))[T.ad]:C(total_ads_bin)[T.21–50]",interaction,0.07361801726296661,1.0763955624342758,0.33498247449210267,3.458770219501486,0.9016245373084456
+exposure_band_interaction,"C(test_group, Treatment(reference=""psa""))[T.ad]:C(total_ads_bin)[T.51–100]",interaction,0.5195446767261918,1.681261957694713,0.522430932951898,5.410555907208728,0.3836337262630918
+exposure_band_interaction,"C(test_group, Treatment(reference=""psa""))[T.ad]:C(total_ads_bin)[T.101+]",interaction,0.20628418910663548,1.2291024518945046,0.38213173258035454,3.9533299866307616,0.7292869089032071
