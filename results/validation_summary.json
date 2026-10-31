@@ -1,0 +1,25 @@
+{
+  "runs": [
+    {
+      "mode": "original",
+      "cells": 24,
+      "executed_code_cells": 11,
+      "errors": 0,
+      "row_count": 588101,
+      "segmented_mode": "loaded original segmented file; all values verified against raw-derived reconstruction"
+    },
+    {
+      "mode": "reconstructed",
+      "cells": 24,
+      "executed_code_cells": 11,
+      "errors": 0,
+      "row_count": 588101,
+      "segmented_mode": "reconstructed all original rows and six derived columns from raw data"
+    }
+  ],
+  "holdout_results_match_between_modes": true,
+  "source_notebook_bytes": 54418,
+  "original_files": 8,
+  "charts": 5,
+  "execution_engine": "IPython cell execution with captured notebook outputs"
+}

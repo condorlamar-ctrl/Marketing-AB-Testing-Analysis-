@@ -1,0 +1,80 @@
+{
+  "source_files": [
+    {
+      "file": "marketing_AB.csv",
+      "bytes": 22569102,
+      "sha256": "c65745ab24c3cd9a20283434d2e4c5ec3d248cd64b06d199c46dd1099b5b5210",
+      "rows": 588101
+    },
+    {
+      "file": "group_conversion_summary_final.csv",
+      "bytes": 219,
+      "sha256": "b24060059c8064f2767de802b3f71d35dd31f3d4195657ce9de655e174e7ce46",
+      "rows": 2
+    },
+    {
+      "file": "marketing_ab_segmented.csv",
+      "bytes": 44213874,
+      "sha256": "bbaac50d493da723b4160eba1d3784d6de54cbe5c48f37a34f7e0e27474cb759",
+      "rows": 588101
+    },
+    {
+      "file": "logistic_regression_or_table.csv",
+      "bytes": 4096,
+      "sha256": "bca9bc620d27abe0f8e1a9a15dbd249d9bda412f829b85ab151b50efbfc677a6",
+      "rows": 32
+    },
+    {
+      "file": "logistic_regression_vif.csv",
+      "bytes": 2170,
+      "sha256": "e05a9cd4872c9e2093c8ff5dc4aa04eaa4301fde5d4ebb9205892ebd7e6a47a6",
+      "rows": 31
+    },
+    {
+      "file": "logit_interaction_terms.csv",
+      "bytes": 1584,
+      "sha256": "75458edf531c08830238157e5974ca6b4e2467c779d04a0d9145f693e08b6436",
+      "rows": 7
+    },
+    {
+      "file": "logit_robustness_comparison.csv",
+      "bytes": 1266,
+      "sha256": "8cb3052d1ce826aaf248635baf1a4b6b8b540ef3f5e002a49a433f2364b65713",
+      "rows": 4
+    },
+    {
+      "file": "segment_conversion_summary.csv",
+      "bytes": 7991,
+      "sha256": "bba4bf14f68f4b6b3ec0a869265ff146879db03132b9106457b32616b97b6883",
+      "rows": 76
+    }
+  ],
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.8"
+  },
+  "seed": 42,
+  "segmented_mode": "reconstructed all original rows and six derived columns from raw data",
+  "source_rows": 588101,
+  "training_rows": 470480,
+  "holdout_rows": 117621,
+  "split_fingerprint_sha256": "1631b6780463e21b8543053f24aad64a34928feb8bd4869bb6b74751256476b5",
+  "small_cell_threshold": 30,
+  "exposure_labels": [
+    "1",
+    "2\u20135",
+    "6\u201310",
+    "11\u201320",
+    "21\u201350",
+    "51\u2013100",
+    "101+"
+  ],
+  "original_source_rows_modified": false,
+  "saved_logistic_tables_refitted": false,
+  "new_predictive_models_trained": true,
+  "predictive_models_use_post_assignment_information": true
+}
