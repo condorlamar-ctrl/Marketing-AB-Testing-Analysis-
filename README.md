@@ -6,6 +6,13 @@ Users in the advertising group had an observed conversion rate of **2.555%**, co
 
 **[Explore the raw dataset](marketing_AB.csv)** | **[View conversion results](group_conversion_summary_final.csv)** | **[Open the Jupyter Notebook](marketing_ab_analysis%20%281%29.ipynb)** | **[View model results](results/new_holdout_model_results.csv)** | **[Use the segmented data](#large-segmented-dataset)**
 
+Raw Dataset Size Notice
+The marketing_ab_segmented.csv file exceeds GitHub’s 25 MB browser upload limit and therefore cannot be previewed or uploaded through the standard web interface.
+The segmented dataset is generated programmatically from the original marketing_AB.csv file using the project’s data-processing workflow. It can be recreated by running the provided Jupyter Notebook in Google Colab.
+This preserves reproducibility and allows users to inspect the complete data transformation process.
+
+
+
 ## Business Problem
 
 Marketing teams need to understand whether advertising is associated with higher conversion than a PSA comparison group, how patterns vary across exposure and timing, and whether the available information supports useful conversion prediction.
