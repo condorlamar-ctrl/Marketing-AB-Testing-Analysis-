@@ -1,0 +1,32 @@
+predictor,vif
+"C(most_ads_hour, Treatment(reference=0))[T.13]",8.831561558432615
+"C(most_ads_hour, Treatment(reference=0))[T.12]",8.778622102179682
+"C(most_ads_hour, Treatment(reference=0))[T.11]",8.614818707069826
+"C(most_ads_hour, Treatment(reference=0))[T.14]",8.5286991242006
+"C(most_ads_hour, Treatment(reference=0))[T.15]",8.382972262353029
+"C(most_ads_hour, Treatment(reference=0))[T.10]",7.50370763253919
+"C(most_ads_hour, Treatment(reference=0))[T.16]",7.28934123165713
+"C(most_ads_hour, Treatment(reference=0))[T.17]",6.885141450834028
+"C(most_ads_hour, Treatment(reference=0))[T.18]",6.4635476916662915
+"C(most_ads_hour, Treatment(reference=0))[T.9]",6.254123330504364
+"C(most_ads_hour, Treatment(reference=0))[T.19]",6.1488704093226625
+"C(most_ads_hour, Treatment(reference=0))[T.21]",6.088919079346904
+"C(most_ads_hour, Treatment(reference=0))[T.20]",5.919497455533055
+"C(most_ads_hour, Treatment(reference=0))[T.22]",5.5163565411703575
+"C(most_ads_hour, Treatment(reference=0))[T.23]",4.485527261707337
+"C(most_ads_hour, Treatment(reference=0))[T.8]",4.0591943941952495
+"C(most_ads_hour, Treatment(reference=0))[T.7]",2.134180858042842
+"C(most_ads_hour, Treatment(reference=0))[T.2]",1.9457518746113214
+"C(most_ads_hour, Treatment(reference=0))[T.1]",1.8524035766215023
+"C(most_ads_day, Treatment(reference=""Friday""))[T.Monday]",1.6545721877284156
+"C(most_ads_day, Treatment(reference=""Friday""))[T.Sunday]",1.6453320520689168
+"C(most_ads_day, Treatment(reference=""Friday""))[T.Thursday]",1.6306802130422822
+"C(most_ads_day, Treatment(reference=""Friday""))[T.Saturday]",1.6217352687885007
+"C(most_ads_day, Treatment(reference=""Friday""))[T.Wednesday]",1.6182900112071745
+"C(most_ads_day, Treatment(reference=""Friday""))[T.Tuesday]",1.5993291299006178
+"C(most_ads_hour, Treatment(reference=0))[T.3]",1.4773180757848345
+"C(most_ads_hour, Treatment(reference=0))[T.6]",1.3695775146874314
+"C(most_ads_hour, Treatment(reference=0))[T.5]",1.13709549745214
+"C(most_ads_hour, Treatment(reference=0))[T.4]",1.1291432299307278
+total_ads,1.0025932354303426
+"C(test_group, Treatment(reference=""psa""))[T.ad]",1.0007324746686248
